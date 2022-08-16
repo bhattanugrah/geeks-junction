@@ -7,9 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { HeaderComponent } from './components/sharing/header/header.component';
-import { FooterComponent } from './components/sharing/footer/footer.component';
-import { SidebarComponent } from './components/sharing/sidebar/sidebar.component';
+import { HeaderComponent } from './components/layout/header/header.component';
+import { FooterComponent } from './components/layout/footer/footer.component';
+import { SidebarComponent } from './components/layout/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
