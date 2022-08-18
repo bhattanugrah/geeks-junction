@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.second-nav{
+  min-height: 40px;
+  // background-color: pink;
+  position: sticky;
+  top: 0;
+  z-index: 1020 !important;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+.second-nav .nav-container .button-container{
+  padding: 10px 30px;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+
+.second-nav button.ds{
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: transparent;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.second-nav button.ds:hover{
+  box-shadow: 0 8px 8px -4px #78bdc4;
+  transition: 300ms;
+}
+
+.second-nav .button-container{
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.second-nav .button-container button{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+button.left{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: white;
+  height: 100%;
+  width: 25px;
+}
+
+button.left fa-icon{
+  font-size: 1.3rem;
+}
+
+button.right fa-icon{
+  font-size: 1.3rem;
+}
+
+button.right{
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-100%, -50%);
+  border: none;
+  background-color: white;
+  height: 100%;
+  width: 25px;
+}
+
+
+@media only screen and (max-width: 992px){
+  .second-nav{
+    display: none;
+  }
+}

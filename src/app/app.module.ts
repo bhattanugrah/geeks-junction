@@ -11,19 +11,28 @@ import { HeaderComponent } from './components/layout/header/header.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { SidebarComponent } from './components/layout/sidebar/sidebar.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SecondHeaderComponent } from './components/layout/header/second-header/second-header.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ContentComponent } from './components/content/content.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    SecondHeaderComponent,
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

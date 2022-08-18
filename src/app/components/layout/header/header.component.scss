@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.header .navbar{
+  background-color: #002C3E;
+  padding: 8px 0 8px 0;
+  position: relative !important;
+}
+
+.header .navbar .navbar-toggler{
+  padding: 2px;
+  height: 40px;
+  width: 40px;
+}
+
+.top-header{
+  height: 50px;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  text-decoration: none;
+  align-items: center;
+  align-self: center;
+  vertical-align: middle;
+  align-content: center;
+}
+
+.header-right-menu{
+  list-style: none !important;
+}
+
+.header-right-menu{
+  height: 100%;
+  margin: 0;
+  top: 50%;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  text-decoration: none;
+  align-items: center;
+  align-self: center;
+  vertical-align: middle;
+  align-content: center;
+}
+
+.header .brand{
+  color: #f7f8f3;
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  align-self: center;
+  vertical-align: middle;
+  align-content: center;
+  font-size: 1.2rem;
+}
+
+.header .search-box{
+  text-align: center;
+  top: 50%;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  text-decoration: none;
+  align-items: center;
+  align-self: center;
+  vertical-align: middle;
+  align-content: center;
+}
+
+.header .search-icon{
+  color: #f7f8f3;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.header .user-icon{
+  color: #f7f8f3;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.header #navbarNav{
+  position: absolute;
+  right: 5%;
+}
+
+.header .navbar-brand{
+  display: flex;
+  justify-content: center;
+}
+
+.header .search-box input{
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7f8f3;
+  padding: 4% 17% 4% 8%;
+  left: 50%;
+  display: flex;
+  overflow: hidden;
+  text-decoration: none;
+  align-items: center;
+  align-self: center;
+  vertical-align: middle;
+  align-content: center;
+  height: 30px;
+}
+
+.header .nav{
+  height: 50px;
+}
+
+.header .search-box fa-icon{
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sign-in button{
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding: 7px 25px;
+  background-color: #f7f8f3;
+  color: black;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sign-in button:hover{
+  box-shadow: 0 8px 8px -4px #78bdc4;
+}
+
+
+@media only screen and (min-width: 992px){
+  .offcanvas{
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .sign-in{
+    display: none;
+  }
+
+  .search-icon{
+    font-size: 1rem !important;
+  }
+
+  .brand{
+    font-size: 80%;
+  }
+
+  .navbar-toggler{
+    top: 50%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    align-self: center;
+    vertical-align: middle;
+    align-content: center;
+  }
+
+  .header .search-box input{
+    width: 77vw !important;
+    height: 50%;
+  }
+
+}

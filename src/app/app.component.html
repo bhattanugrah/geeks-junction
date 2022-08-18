@@ -1,10 +1,17 @@
 <!-- Header -->
 <app-header></app-header>
+<app-second-header></app-second-header>
 
-<router-outlet></router-outlet>
+
 
 <!--sidebar-->
-<app-sidebar></app-sidebar>
+
+<div class="row m-0">
+  <app-sidebar class="col-lg-3"></app-sidebar>
+  <app-content class="col-lg-6 col-12 col-sm-10 mx-auto mx-md-0">
+    <router-outlet></router-outlet>
+  </app-content>
+</div>
 
 <!--footer-->
 <app-footer></app-footer>

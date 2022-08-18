@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.footer{
+  background-color: #002C3E;
+  color: #f7f8f3;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.footer .footer-wrapper .social-media ul{
+  list-style: none;
+}
+
+.footer .footer-wrapper .social-media ul li fa-icon{
+  font-size: 2rem;
+}
+
+.social-media ul li a{
+  color: white;
+}
+
+.social-media ul li a:hover{
+  color: #f8444f;
+}
+
+.main-footer .title{
+  font-family: 'Press Start 2P', cursive;
+  color: #f7f8f3;
+}
+
+.links li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.links li a{
+  color: white;
+  text-decoration: none;
+}
+
+.list-title{
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #f8444f;
+}
+
+.links li a{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.links li a:hover{
+  color: #f8444f;
+}
+
+.main-footer{
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 426px){
+  .links{
+    width: 100%;
+    text-align: center;
+  }
+  .links ul{
+    padding-left: 0;
+  }
+
+  .main-footer .title{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .links{
+    display: flex;
+    flex-basis: 50%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .links ul{
+    padding-left: 0;
+  }
+
+  .main-footer .title{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .main-footer .title{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 769px){
+  .footer-right div:nth-child(1){
+    flex-wrap: wrap
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+  .footer-right div:nth-child(1){
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,54 @@
+.sidebar{
+  border-right: 1px solid black;
+  padding: 10px 15px;
+  overflow: auto;
+}
+
+
+.sidebar .links ul li a:hover{
+  color: #f8444f;
+}
+
+.sidebar .links ul li .accordion a:hover{
+  background-color: #f7f8f3;
+}
+
+.sidebar .links ul li:hover,
+.sidebar .links ul li:hover .accordion a
+{
+  background-color: #f7f8f3;
+  color: #f8444f;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: transparent !important;
+  color: #f8444f !important;
+}
+
+.sidebar .links ul{
+  padding-left: 0;
+}
+.sidebar ul li{
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.accordion-button{
+  font-size: 15px;
+}
+
+.sidebar .links ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+.sidebar .links ul li{
+  padding: 15px 0px;
+}
+
+@media only screen and (max-width: 992px){
+  .sidebar{
+    display: none;
+  }
+}
