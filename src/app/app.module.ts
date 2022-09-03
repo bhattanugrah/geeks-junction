@@ -15,6 +15,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SecondHeaderComponent } from './components/layout/header/second-header/second-header.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ContentComponent } from './components/content/content.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ContentComponent } from './components/content/content.component';
     MatSliderModule,
     NgbModule,
     FontAwesomeModule,
-    CarouselModule
+    CarouselModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
